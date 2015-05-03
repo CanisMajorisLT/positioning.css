@@ -1,0 +1,21 @@
+@import "messageflash";
+@import "rightsidepanel";
+@import "mainarea";
+@import "colors";
+@import "htmlmap";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #react-div, #outside-wrap  {
+  height: 100%;
+
+}
+
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  //background-color: $content;
+  margin: 0;
+}

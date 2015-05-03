@@ -1,0 +1,54 @@
+@import "colors";
+@import "buttons";
+
+#html-map-btn {
+  @include button;
+  height: 35px;
+  width: 65px;
+  line-height: 35px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+}
+
+#html-map-body {
+  position: absolute;
+  border: 1px solid darken($rightPanelBackground, 10%);
+  top: 60px;
+  right: 15px;
+  letter-spacing: 0.6pt;
+  font-size: 15px;
+  line-height: 1.5;
+
+  > div {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+
+  }
+}
+
+.tree {
+  cursor: pointer;
+  background-color: #fff;
+  color: #021014;
+  div div {
+    margin-left: 5px;
+    div {
+      margin-left: 20px;
+    }
+  }
+}
+
+.gutters {
+  width: 29px;
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+  color: #999;
+  text-align: right;
+  div {
+  }
+
+}
