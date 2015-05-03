@@ -1,5 +1,6 @@
 var React = require('react');
 var inputParser = require('./inputParser.jsx');
+var debug = require('debug')('movableObjectGenerator');
 
 module.exports = React.createClass({
     componentDidMount: function () {
@@ -23,7 +24,8 @@ module.exports = React.createClass({
         return (
         <div id="editor">
         <button onClick={this.transferInput}>Submit</button>
-            <textarea id="editor-input"></textarea>
+            <textarea id="editor-input" defaultValue="#digimon {margin:60px 0 0 331px}
+            .pokemon{margin: 40px 0 0 360px}"></textarea>
         </div>
         )
     }
