@@ -3,7 +3,6 @@ var Dashboard = require('./Dashboard.jsx');
 var Infoboard = require('./infoBoard.jsx');
 var inputParser = require('./inputParser.jsx');
 var levels = require('./levels');
-var MovableObjects = require('./movableObjectsGenerator.jsx');
 var MessageFlash = require('./messageFlasher.jsx');
 var Navbarish = require('./navbarish.jsx');
 var MainArea = require('./mainArea.jsx');
