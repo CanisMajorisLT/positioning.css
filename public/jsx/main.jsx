@@ -1,35 +1,27 @@
 var React = require('react');
-var Dashboard = require('./Dashboard.jsx');
+var InputEditor = require('./inputEditor.jsx');
 var Infoboard = require('./infoBoard.jsx');
 var inputParser = require('./inputParser.jsx');
 var levels = require('./levels');
-var MessageFlash = require('./messageFlasher.jsx');
 var Navbarish = require('./navbarish.jsx');
 var MainArea = require('./mainArea.jsx');
-
+var debug = require('debug')('main');
 var _ = require('lodash');
 require('../stylesheets/scss/main.scss');
+window.myDebug = require('debug'); // importing as global object
 
-// gal tai daryti?
-var Controller = React.createClass({
-    getInitialState: function () {
-        return {level: 1}
-    },
-    render: function () {
-        return (
-            <div></div>
-        )
-    }
-});
-
+/*Starting point of the program.
+    1. It takes input from InputEditor, applies css changes to data object
+* and sends it to MainArea component, which controls level/game logic rendering.
+*   2. It also has passes on nextLevel method, which is called when player advances to next level.   */
 var GameWrap = React.createClass({
     getInitialState: function () {
         var startingLevel = 1;
-        return {data: this.props.data[startingLevel], message: ''};
+        return {data: this.props.data[startingLevel]};
     },
 
     updateStyles: function (newStyles) {
-        console.log('GameWrap is updating styles (updating state)');
+        debug('GameWrap is updating styles (updating state)');
         var currentLevel = this.state.data.level;
         var oldObjectsStyles = _.cloneDeep(this.props.data[currentLevel].objects);
         var updatedObjectsStyles = inputParser.updateStyleObj(oldObjectsStyles, newStyles);
@@ -39,36 +31,19 @@ var GameWrap = React.createClass({
     },
 
     nextLevel: function () {
-        console.log('GameWrap is calling nextLevel (updating state)');
+        debug('GameWrap is calling nextLevel (updating state)');
         var nextLevel = this.state.data.level + 1;
         if (this.props.data.hasOwnProperty(nextLevel)) {
             this.setState({data: this.props.data[nextLevel]})
         }
         else {
-            console.log('no next level');
+            debug('no next level');
             this.flashText('You have completed all levels!', 1500)
         }
     },
 
-    flashText: function (text, duration) {
-        // TODO implamentuot duration
-        this.setState({message: text})
-    },
-    flashText2: function (duration) {
-        var duration = 1000;
-        var text = React.findDOMNode(this.refs.msg).value;
-        console.log(text);
-        // TODO implamentuot duration
-        this.setState({message: text})
-    },
-    addSliderClass: function () {
-      this.setState({sliderStyle: {left: '0%'}, mainStyle: {left: '100%'}});
-    },
-
     render: function () {
-        console.log('GameWrap is rendering');
-        var sliderStyle = this.state.sliderStyle;
-        var mainStyle = this.state.mainStyle;
+        debug('GameWrap is rendering');
         return (
             <div id="outside-wrap">
                 <Navbarish/>
@@ -76,28 +51,20 @@ var GameWrap = React.createClass({
                 <MainArea data={this.state.data} nextLevel={this.nextLevel}/>
                 <div className="right-side-panel">
                     <Infoboard data={this.state.data}/>
-                    <Dashboard flashText={this.flashText} editor={this.props.codeMirror}
+                    <InputEditor flashText={this.flashText} editor={this.props.codeMirror}
                         updateStyles={this.updateStyles} data={this.state.data}/>
                 </div>
-                <MessageFlash message={this.state.message}/>
             </div>
         )
     }
 });
-//                    <div id="footer">Made by Vytenis</div>
 
-//<div id="flashmsg-contrl">
-//                    <input name="msg" ref="msg"/>
-//                    <button onClick={this.flashText2}>Msg display</button>
-//                </div>
-
-// cia toks dirty sprendimas, reiketu kazkaip graziua veliau padaryt
+/*CodeMirror plugin is passed as an object so it can be initialised later. After textarea is created*/
 var myCodeMirror = {
     editor: {},
     editorMake: function () {
         this.editor = CodeMirror.fromTextArea(document.getElementById('editor-input'),
-            {
-                value: 'asdassad',
+            {   value: 'why you no work?',
                 lineNumbers: true,
                 smartIdent: true
             });

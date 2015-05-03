@@ -2,43 +2,56 @@ var React = require('react');
 var MovableObjects = require('./movableObjectsGenerator.jsx');
 var WinConditionObjects = require('./winConditionObjects.jsx');
 var HTMLmapWrap = require('./HTMLmap.jsx');
+var debug = require('debug')('mainArea');
 
+/**
+ *  1. Passes on updated objects.
+ *  2. Controls transitions between levels.*/
 var MainAreaWrap = module.exports = React.createClass({
     getInitialState: function () {
         return {visible: 'objects'};
-        /*@visible: 'objects' - means levels is in progress,
-         *           'info1' - levels are in trasition, info should from the left, while objects should slide to the right.
-         *           'info2' - levels are in trasition, info is in main window, while objects outside. Objects should be hidden and moved
+        /**@visible: 'objects' - means levels is in progress,
+         *           'info1' - levels are in transition, info should slide from the left, while objects should slide to the right.
+         *           'info2' - levels are in transition, info is in main window, while objects outside. Objects should be hidden and moved
          *           to the left side.
          *           'info3' - levels are in transition, info should slide out to the right, and objects slide out from the left.
-         *           'info4' - levels finished transition, info should be hidden and moved to the left, while objects stay in focus  */
+         *           'info4' - levels finished transition, info should be hidden and moved to the left, while objects stay in focus
+         *             */
     },
+
     shouldComponentUpdate: function (nextProps, nextState) {
         if (nextProps.data.level !== this.props.data.level) {
-            console.log('MainAreaWrap you shall not update');
-            console.log(nextState);
+            debug('MainAreaWrap you shall not update');
+            debug(nextState);
             return false
         }
         else if (this.state.visible === 'info4' && nextState.visible === 'objects') {
-            console.log('MainAreaWrap you shall not update: this state = info4, next state = objects');
+            debug('MainAreaWrap you shall not update: this state = info4, next state = objects');
             return false
         }
-        console.log(' MainAreaWrap you shall update');
+        debug(' MainAreaWrap you shall update');
 
         return true
 
 
     },
+    /**
+     * Passed to MovableObjects and invoked from there.
+     * */
     nextLevel: function () {
-        console.log('MainAreaWrap is setting state to info1');
+        // Actual nextLevel from parent is invoked only after info1 stage (when message about next level is displayed)
+        debug('MainAreaWrap is setting state to info1');
 
         this.setState({visible: 'info1'})
 
     },
+    /**
+     * Controls transition between levels. After info1 stage nextLevel is called on parent.
+     * */
     componentDidUpdate: function () {
         if (this.state.visible === 'info1') {
             setTimeout(function () {
-                console.log('MainAreaWrap is calling nextLevel on main and setting state to info2');
+                debug('MainAreaWrap is calling nextLevel on main and setting state to info2');
                 this.props.nextLevel();
                 this.setState({visible: 'info2'});
 
@@ -46,33 +59,30 @@ var MainAreaWrap = module.exports = React.createClass({
         }
         else if (this.state.visible === 'info2') {
             setTimeout(function () {
-                console.log('MainAreaWrap is setting state to info3');
+                debug('MainAreaWrap is setting state to info3');
 
                 this.setState({visible: 'info3'});
             }.bind(this), 1000)
         }
         else if (this.state.visible === 'info3') {
             setTimeout(function () {
-                console.log('MainAreaWrap is setting state to info4');
+                debug('MainAreaWrap is setting state to info4');
 
                 this.setState({visible: 'info4'});
             }.bind(this), 1000)
         }
         else if (this.state.visible === 'info4') {
-            console.log('MainAreaWrap is setting state to objects');
+            debug('MainAreaWrap is setting state to objects');
 
             this.setState({visible: 'objects'});
         }
     },
 
-    handleHTMLmapHover: function (identifier, active) {
-        //pass
-    },
     render: function () {
         var sliderStyle;
         var objectsStyle;
         var level;
-        console.log('MainAreaWrap info level', this.state.visible);
+        debug('MainAreaWrap info level', this.state.visible);
 
         if (this.state.visible === 'info1') {
             sliderStyle = {left: '0%'};

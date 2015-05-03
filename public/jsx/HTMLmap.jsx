@@ -59,6 +59,7 @@ var HTMLmapTree = React.createClass({
         console.log(el);
     },
     render: function () {
+        var uniqueKeyProp = 1;
         var elementToString = function (element) {
             var div = '<div';
             if (element.hasOwnProperty('id')) {
@@ -72,6 +73,8 @@ var HTMLmapTree = React.createClass({
         };
         var elementsGenerator = function (objects) {
             return objects.map(function (element) {
+                var key = uniqueKeyProp;
+                ++uniqueKeyProp;
                 // recursion if has objects inside
                 var recursion;
                 if (element.hasOwnProperty('objects')) {
@@ -80,7 +83,7 @@ var HTMLmapTree = React.createClass({
                 var elementString = elementToString(element);
                 var divString = '</div>';
                 if (element.hasOwnProperty('id')) {
-                    return <div id={element.id}>
+                    return <div key={key} id={element.id}>
                         <div onMouseOver={this.handleHover.bind(null, '#' + element.id, true)}
                             onMouseOut={this.handleHover.bind(null, '#' + element.id, false)}>{elementString}</div>
                         {recursion}
@@ -91,7 +94,7 @@ var HTMLmapTree = React.createClass({
                 }
                 else {
                     var className = element.class;
-                    return <div className={className}>
+                    return <div key={key} className={className}>
                         <div onMouseOver={this.handleHover.bind(null, '.' + element.class, true)}
                             onMouseOut={this.handleHover.bind(null, '.' + element.class, false)}>{elementString}</div>
                         {recursion}
