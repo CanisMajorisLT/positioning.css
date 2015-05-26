@@ -1,0 +1,22 @@
+.main-area {
+  position: relative;
+  min-width: 920px;
+  width: calc(100% - #{$right-side-panel-width});
+  min-height: $min-page-height;
+  height: calc(100% - #{$header-height});
+  background-color: lighten($main-area-color, 8%);
+  display: inline-block;
+  overflow-x: hidden;
+}
+
+#outside-wrap {
+  position: relative;
+  background-color: lighten($main-area-color, 8%);
+  min-width: 1270px;
+  height: 100%;
+}
+
+
+.mapHover {
+  box-shadow: 0 0 0 3px #00010C;
+}

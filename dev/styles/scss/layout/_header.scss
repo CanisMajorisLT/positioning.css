@@ -1,0 +1,118 @@
+$nav-buttons-color: #FFCF79;
+$header-height: 30px;
+
+#header {
+  position: relative;
+  background-color: $header-color;
+  height: $header-height;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.logo {
+  font-family: 'Play', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: $header-height;
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  text-shadow: 0 0 3px #a6a6a6;
+  color: white; //rgba(255, 255, 255, 0.9);
+}
+
+.level-nav {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  float: right;
+  .active {
+    color: white;
+  }
+  div {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+
+    a {
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+      color: darken($header-color, 12%);
+      text-decoration: none;
+      line-height: $header-height;
+      font-size: 17px;
+      font-weight: 600;
+
+      &:hover {
+        text-shadow: none;
+        color: #e1edff;
+      }
+    }
+  }
+}
+
+/*@mixin nav-buttons-corners($position, $color) {
+  content: '';
+  position: absolute;
+  border: $header-height/2 solid $color;
+  top: 0;
+  @if $position == after {
+    border-left-color: transparent;
+    border-top-color: transparent;
+    right: 100%;
+  } @else {
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    left: 100%;
+  }
+
+}*/
+
+/*.level-nav {
+  z-index: 1;
+  display: inline-block;
+  position: relative;
+  float: right;
+
+  div {
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+    background-color: $nav-buttons-color;
+
+    &:hover {
+      background-color: lighten($nav-buttons-color, 10%);
+    }
+
+    a {
+      color: $header;
+      background-color: $nav-buttons-color;
+      text-decoration: none;
+      line-height: $nav-height;
+      font-size: 18px;
+      font-weight: 600;
+
+      &:before {
+        @include nav-buttons-corners(before, $nav-buttons-color);
+
+      }
+
+      &:after {
+        @include nav-buttons-corners(after, $nav-buttons-color);
+      }
+
+      &:hover {
+        background-color: lighten($nav-buttons-color, 10%);
+      }
+      &:hover:before {
+        @include nav-buttons-corners(before, lighten($nav-buttons-color, 10%));
+      }
+      &:hover:after {
+        @include nav-buttons-corners(after, lighten($nav-buttons-color, 10%));
+      }
+    }
+  }
+
+}*/
+

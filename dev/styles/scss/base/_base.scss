@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #react-div, #outside-wrap  {
+  height: 100%;
+
+}
+@media (min-height: 650px) {
+  // to cover that weird wide gap at bottom :-(
+  body {
+    overflow-y: hidden;
+  }
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}

@@ -1,0 +1,105 @@
+@mixin divide-border($direction) {
+  @if $direction == 'bottom' {
+    border-bottom: 2px solid darken($right-panel-background-color, 4%);
+  } @else {
+    border-top: 2px solid lighten($right-panel-background-color, 4%);
+
+  }
+
+}
+
+.info-wrap {
+  position: relative;
+}
+
+.right-side-panel {
+  position: relative;
+  vertical-align: top;
+  background-color: $right-panel-background-color;
+  display: inline-block;
+  width: $right-side-panel-width;
+  height: calc(100% - #{$header-height});
+  min-height: $min-page-height;
+  color: $right-panel-text-color;
+  padding-top: 5px;
+
+  .text-info {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  button {
+    @include button;
+    height: 30px;
+    width: 95%;
+    margin: 10px 0 10px 7.5px;
+  }
+
+}
+
+#level-progress {
+  position: relative;
+  color: darken($right-panel-background-color, 16%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+  text-align: center;
+  height: 30px;
+  line-height: 25px;
+  font-weight: 600;
+  @include divide-border('bottom');
+  #prev-level {
+    float: left;
+  }
+  #next-level {
+    float: right;
+  }
+  .level-control {
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    font-size: 25px;
+
+    &:hover {
+      color: darken($right-panel-background-color, 10%);
+
+    }
+
+  }
+
+}
+
+#level-progress, #positioning-theory, #level-explanation, #not-allowed-input, .editor-wrap {
+  .title {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-bottom: 2px solid $linen;
+    background-color: darken($right-panel-background-color, 4%);
+  }
+  #editor {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .content {
+    margin: 0 7px 0 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+#positioning-theory {
+  position: relative;
+  @include divide-border('top');
+  padding-top: 10px;
+}
+
+#not-allowed-input {
+  @include divide-border('bottom');
+  position: relative;
+
+}
+
+.editor-wrap {
+  @include divide-border('top');
+  position: relative;
+  top: 0px;
+}
+
+

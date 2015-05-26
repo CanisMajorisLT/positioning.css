@@ -1,0 +1,56 @@
+// deprecated for now
+
+@keyframes move1 {
+  50% {
+    margin: 0 0 0 16px
+  }
+  100% {
+    margin: 16px 0 0 0
+  }
+}
+
+@keyframes move2 {
+  50% {
+    margin: 0 16px 0 0
+  }
+  100% {
+    margin: 0 16px 0 0
+  }
+}
+
+.logo-icon {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background-color: #FFCF79;
+
+  .logo1 {
+    transition-duration: 250ms;
+    width: 12px;
+    height: 12px;
+    background-color: #ECA400;
+    margin: 2px 0 0 2px;
+  }
+  .logo2 {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px dotted #000000;
+    opacity: 0.3;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+  }
+
+  &:hover {
+    .logo1 {
+      animation: move1 2s infinite;
+    }
+    .logo2 {
+      animation: move2 2s infinite;
+    }
+  }
+}
+

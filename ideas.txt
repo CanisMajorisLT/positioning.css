@@ -17,7 +17,13 @@ Darbai:
 8. kai žmogus panaudoja tai, ko negalima informavmas
 9. Animating transitions!!
 10. Padaryt, kad elementai galetu turet ir klase ir ID. cia is esmes reikai padaryt viena renderinimo f-ja. 70%
-
+11. Nuspresti ar daryti tuos grazius level transitionus ar isimti ir tegul tiesiog obejktai pakinta
+12. Markupas ten kur texas apie toerija ir pan, kad eitu nuorodas ideti, paryskinti ka reikia.
+13. pataisyti liniuote, kad kai buna overflow irgi veiktu -> vienintelis budas padaryti ja su click, kad tik paspaudus matuotu
+tada. Galima daryti su fixed posotion kaip palikta dabar.
+14. isjungti developers mode?
 bugs:
-1. Nustatai tarkim margin: 5px, paskui is naujo nustatai margin-left: 10px ir tas 5px dar kitur lieka
-2. neveikai shortucas: margin: 0 1 0 5
+3. daznas bugas, kai promises neispildo, tada nepachekina ar win ir toliau visokiu bb kyla is to. Reik padaryt kad promises rezolvintusi bet
+kokiu atveju, bugas kyla del to, kad ne viskam yra aktyvuoti transitionai. Pvz net aktyvavus transitiona ant top, jei elementas netures
+pries tai jokio is tu top, left.. value, tai jis pakeis pozicija be transitiono.
+* screenas pavaziuoja aukstyn

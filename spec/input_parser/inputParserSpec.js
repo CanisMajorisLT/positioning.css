@@ -1,11 +1,11 @@
 /**
  * Created by vyt on 2015-04-09.
  */
-var inputParser = require('../../public/jsx/inputParser.jsx');
-var levels = require('../../public/jsx/levels');
+var inputParser = require('../../dev/javascript/inputParser.js');
+var levels = require('../../dev/javascript/levels');
 
 describe('Validator of css input', function () {
-    var cssInput = '.digimon {top: 50px; bottom: 2px}, #abul {margin-left: -30px}';
+        var cssInput = '.digimon {top: 50px; bottom: 2px}, #abul {margin-left: -30px}';
 
     it('should return false if there are not allowed words in input', function () {
         var notAllowed = ['margin'];
@@ -18,9 +18,9 @@ describe('Validator of css input', function () {
         var check = inputParser.isValidInput(cssInput, notAllowed);
         expect(check).toBeTruthy();
     });
-    it('should differentiate between left and *-left', function () {
-        var notAllowed = ['left']; //as in left not allowed when position relative
-        var cssInputLocal = '.niceclass {padding-left: 20px}';
+    it('should differentiate between left/right/top/bottom and *-left/right/top/bottom', function () {
+        var notAllowed = ['left', 'top']; //as in left, top not allowed when position relative
+        var cssInputLocal = '.niceclass {padding-left: 20px} #sauron {padding-top: 1px}';
         var check2 = inputParser.isValidInput(cssInputLocal, notAllowed);
         expect(check2).toBeTruthy()
     })

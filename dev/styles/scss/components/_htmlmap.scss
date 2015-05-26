@@ -1,0 +1,61 @@
+#html-map-btn {
+  z-index: 3;
+
+  @include button;
+  height: 35px;
+  width: 65px;
+  line-height: 35px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#html-map-body {
+  z-index: 3;
+  position: absolute;
+  border: 1px solid darken($main-area-color, 15%);
+  top: 60px;
+  right: 15px;
+  letter-spacing: 0.6pt;
+  font-size: 15px;
+  line-height: 1.5;
+
+  > div {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+  }
+
+  &:before {
+    // just to cover area between button and map body, so ruler doesn't show when moving mouse between them
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    top: -11px;
+  }
+}
+
+.tree {
+  cursor: pointer;
+  background-color: #fff;
+  color: #021014;
+  div div {
+    margin-left: 5px;
+    div {
+      margin-left: 20px;
+    }
+  }
+}
+
+.gutters {
+  width: 29px;
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+  color: #999;
+  text-align: right;
+  div {
+  }
+
+}
