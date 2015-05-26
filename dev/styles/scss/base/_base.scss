@@ -2,14 +2,18 @@
   box-sizing: border-box;
 }
 
-html, body, #react-div, #outside-wrap  {
+html, body, #react-div, #outside-wrap {
   height: 100%;
 
 }
+
 @media (min-height: 650px) {
   // to cover that weird wide gap at bottom :-(
   body {
-    overflow-y: hidden;
+    background-color: lighten($main-area-color, 8%);
+    //overflow-y: hidden;
+    padding-bottom: 7px;
+
   }
 }
 

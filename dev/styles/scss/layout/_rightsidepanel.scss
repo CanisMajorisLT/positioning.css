@@ -18,10 +18,9 @@
   background-color: $right-panel-background-color;
   display: inline-block;
   width: $right-side-panel-width;
-  height: calc(100% - #{$header-height});
-  min-height: $min-page-height;
+  min-height: calc(100% - #{$header-height} + 7px); // 7px is because body {padding-bottom: 8px}, balancing/removign weird white gap
+  //min-height: $min-page-height;
   color: $right-panel-text-color;
-  padding-top: 5px;
 
   .text-info {
     font-family: 'Roboto Condensed', sans-serif;
@@ -39,11 +38,13 @@
 #level-progress {
   position: relative;
   color: darken($right-panel-background-color, 16%);
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.15);
   text-align: center;
-  height: 30px;
+  height: 35px;
   line-height: 25px;
   font-weight: 600;
+    background-color: darken($right-panel-background-color, 3%);
+  padding-top: 5px;
   @include divide-border('bottom');
   #prev-level {
     float: left;
@@ -53,7 +54,7 @@
   }
   .level-control {
     cursor: pointer;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.15);
     font-size: 25px;
 
     &:hover {
@@ -69,9 +70,11 @@
   .title {
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
+    font-size: 18px;
+    padding-left: 7px;
     border-bottom: 2px solid $linen;
-    background-color: darken($right-panel-background-color, 4%);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   }
   #editor {
     margin-left: 10px;
@@ -88,18 +91,28 @@
   position: relative;
   @include divide-border('top');
   padding-top: 10px;
+  min-height: 166px;
+}
+#level-explanation {
+  min-height: 100px;
 }
 
 #not-allowed-input {
-  @include divide-border('bottom');
+  //@include divide-border('bottom');
   position: relative;
+  p {
+    margin-bottom: 8px;
+  }
 
 }
-
 .editor-wrap {
-  @include divide-border('top');
-  position: relative;
-  top: 0px;
+  //@include divide-border('top');
+  height: 100%;
+}
+
+#editor {
+  //position: absolute;
+  bottom: 5px;
 }
 
 

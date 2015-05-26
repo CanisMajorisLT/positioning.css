@@ -19,19 +19,19 @@ var InfoBoard = module.exports = React.createClass({
                     </div>
                 </div>
                 <div className="text-info" id="positioning-theory">
-                                    <div className="title">Theory</div>
+                                    <div className="title">#Theory</div>
                     <div className="content">
                         <span dangerouslySetInnerHTML={{__html: marked(data.positioningTheory)}}></span>
                     </div>
                 </div>
                 <div className="text-info" id="level-explanation">
-                    <div className="title">Instructions</div>
+                    <div className="title">#Instructions</div>
                     <div className="content">
                         <span dangerouslySetInnerHTML={{__html: marked(data.levelExplanation)}}></span>
                     </div>
                 </div>
                 <div className="text-info" id="not-allowed-input">
-                        <div className="title">Not allowed to use</div>
+                        <div className="title">#Not allowed to use</div>
                     <div className="content">
                         <span dangerouslySetInnerHTML={{__html: marked(data.notAllowedInput.join(', '))}}></span>
                     </div>
