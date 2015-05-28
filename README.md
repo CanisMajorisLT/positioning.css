@@ -1,4 +1,4 @@
-All of the project code is located in **dev** folder, which is compiled by webpack into 1 .js file.
+All of the project code is located in **dev** folder, which is compiled by webpack into 1 .js file placed in public folder.
 
 ### Description
 CSS Positioning is a small *one page application* that was developed as means to deepen my knowledge in front end development, especially
@@ -13,11 +13,12 @@ Information about levels is imported from [dev/javascripts/level.js](https://git
 Object containing levels is passed down to GameWrap component, which passes it down to all child components that need data about level.
 
 GameWrap has the *main* controlling state - it takes data of the whole level as a state and updates it on *user input* or *when levels are changed
-in navigation* or *when level is **won*** by user inputting correct answer.
+in navigation* or *when level is won* by user inputting correct answer.
 
 #### What can be improved
 * There is a lot of game logic placed directly into React components - it should be moved outside of them.
 * Some of the code that is written in JSX/HTML could be made into React components.
 * Variable naming consistency (rendered objects sometimes are referred as elements, sometimes as objects).
+* __Haven't tested it on touch devises (phones, tablets), might be some problems related to click/touch events__
 * More tests.
 * There are a lot of TODOs laying around!

@@ -26,13 +26,21 @@ var HTMLmapWrap = module.exports = React.createClass({
 
 var HTMLmap = React.createClass({
     render: function () {
+        var navigatorC = navigator.userAgent.toLowerCase();
+        var is_safari = (navigatorC.indexOf("safari") !== -1) && (navigatorC.indexOf('chrome') === - 1);
         var style = {
-            transform: 'scale(0)',
             transitionDuration: '250ms',
             transformOrigin: 'right'
         };
+
+        // scale doesn't work on safari, so need to use display: block/none
+        if (is_safari) style.display = 'none';
+        else style.transform =  'scale(0)';
+
+
         if (this.props.display) {
-            style.transform = 'scale(1)';
+            if (is_safari) style.display = 'block';
+            else style.transform =  'scale(1)'
         }
         return (
             <div style={style} id="html-map-body">

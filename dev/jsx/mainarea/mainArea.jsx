@@ -97,6 +97,7 @@ var MainAreaWrap = module.exports = React.createClass({
       Ruler.update(mouse)
     },
 
+
     render: function () {
         var sliderStyle;
         var objectsStyle;
