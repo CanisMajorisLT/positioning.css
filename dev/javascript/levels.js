@@ -7,7 +7,6 @@ module.exports = {
     "1": {
         "level": 1,
         "topic": "static",
-        "ruler": "true",
         "levelExplanation": "Change *__#leonidas__* height to move *__#messenger__* to the projected location",
         "winConditions": [{"#messenger": {"top": 450, "left": 10}}],
         "objects": [{
@@ -39,7 +38,6 @@ module.exports = {
     "3": {
         "level": 3,
         "topic": "relative",
-        "ruler": "true",
         "levelExplanation": "This time move *__#messenger__* to the shown position by using top, left.",
         "winConditions": [{"#messenger": {"top": 350, "left": 450}}],
         "objects": [{
@@ -62,7 +60,6 @@ module.exports = {
     "4": {
         "level": 4,
         "topic": "relative",
-        "ruler": "true",
         "levelExplanation": "Again  move *__#messenger__* to the shown position this time by using bottom, right.",
         "winConditions": [{"#messenger": {"top": 350, "left": 450}}],
         "objects": [{
@@ -85,7 +82,6 @@ module.exports = {
     "5": {
         "level": 5,
         "topic": "relative",
-        "ruler": "true",
         "levelExplanation": "Okay, now move *__#messenger__*  below *__#peasant__*",
         "winConditions": [{"#messenger": {"top": 500, "left": 0}}],
         "objects": [{
@@ -107,7 +103,6 @@ module.exports = {
     "6": {
         "level": 6,
         "topic": "absolute",
-        "ruler": "false",
         "levelExplanation": "Move *__#absolute-child-1__* by using bottom and left properties. Move *__#absolute-child-2__* by using top and right properties.",
         "winConditions": [{"#absolute-child-1": {"top": 300, "left": 100}}, {
             "#absolute-child-2": {
@@ -155,7 +150,6 @@ module.exports = {
     "7": {
         "level": 7,
         "topic": "fixed",
-        "ruler": "false",
         "levelExplanation": "Scroll down to fly *__#bird__* to its location below and submit. Use top property to modify its position if needed.",
         "winConditions": [{"#bird": {"top": 3000, "left": 10}}],
         "objects": [{

@@ -1,61 +1,23 @@
+All of the project code is located in **dev** folder, which is compiled by webpack into 1 .js file.
+
 ### Description
 CSS Positioning is a small *one page application* that was developed as means to deepen my knowledge in front end development, especially
 JavaScript, React framework from Facebook, SASS preprocessor, code and project structuring and web design.
 I have taken inspiration from [CSS Diner](http://flukeout.github.io/) and [flexbox in  5 minutes](http://flexboxin5.com/).
 
-All of the project code is located in **dev** folder, which is complied by webpack into 1 .js file.
+Since the project has turned out to be more of an educational nature for myself, I haven't invested much time for content creation,
+as a result there aren't many levels and some of the positioning theory is borrowed from www.codecademy.com and http://www.barelyfitz.com/screencast/html-training/css/positioning/
 
 #### How it works
-Information about levels is imported from dev/javascripts/level.js. Level are described in JSON formatas follows:
+Information about levels is imported from [dev/javascripts/level.js](https://github.com/CanisMajorisLT/positioning.css/blob/master/dev/javascript/levels.js). Level are described in JSON format (and can be created easily).
+Object containing levels is passed down to GameWrap component, which passes it down to all child components that need data about level.
 
+GameWrap has the *main* controlling state - it takes data of the whole level as a state and updates it on *user input* or *when levels are changed
+in navigation* or *when level is **won*** by user inputting correct answer.
 
-{"6":
-{
-        "level": 6,
-        "topic": "absolute",
-        "ruler": "false",
-        "levelExplanation": "Move *__#absolute-child-1__* by using bottom and left properties. Move *__#absolute-child-2__* by using top and right properties.",
-        "winConditions": [{"#absolute-child-1": {"top": 300, "left": 100}}, {
-            "#absolute-child-2": {
-                "top": 100,
-                "left": 750
-            }
-        }],
-        "objects": [{
-            "id": "relative-parent",
-            "css": {
-                "margin": "25px 0 0 25px",
-                "position": "relative",
-                "height": "600px",
-                "width": "700px",
-                "backgroundColor": "#f1c40f"
-            },
-            "objects": [{
-                "id": "absolute-child-1",
-                "css": {
-                    "left": 0,
-                    "bottom": "380px",
-                    "position": "absolute",
-                    "height": "150px",
-                    "width": "150px",
-                    "backgroundColor": "#34495e"
-                }
-            }, {
-                "id": "absolute-child-2",
-                "css": {
-                    "right": 0,
-                    "top": "20px",
-                    "position": "absolute",
-                    "height": "150px",
-                    "width": "150px",
-                    "backgroundColor": "#34495e"
-                }
-            }, {
-                "id": "static-child",
-                "css": {"margin": "220px 0 0 160px", "height": "350px", "width": "350px", "backgroundColor": "#FF5722"}
-            }]
-        }],
-        "notAllowedInput": ["color", "padding"],
-        "positioningTheory": "When an element is set to position: __absolute__, it's then *removed from natural DOM flow and positioned in relation to the first _parent_ element* it has that doesn't have position: static. If there's no such element, the element with position: absolute gets positioned relative to <html>."
-    },
-    }
+#### What can be improved
+* There is a lot of game logic placed directly into React components - it should be moved outside of them.
+* Some of the code that is written in JSX/HTML could be made into React components.
+* Variable naming consistency (rendered objects sometimes are referred as elements, sometimes as objects).
+* More tests.
+* There are a lot of TODOs laying around!
