@@ -4,15 +4,15 @@
 
 html, body, #react-div, #outside-wrap {
   height: 100%;
-
 }
 
 @media (min-height: 650px) {
-  // to cover that weird wide gap at bottom :-(
+  #react-div {
+    // to cover that weird wide gap at bottom :-( [and prevent user from scrolling, if disable on body, he could still scroll with wheel etc.]
+    overflow-y: hidden;
+  }
   body {
     background-color: lighten($main-area-color, 8%);
-    //overflow-y: hidden;
-    padding-bottom: 7px;
 
   }
 }

@@ -9,7 +9,15 @@ var debug = require('debug')('main');
 var _ = require('lodash');
 var firstLevelOfTopic = require('../javascript/helperFunctions').firstLevelOfTopic;
 require('../styles/scss/main.scss');
-window.myDebug = require('debug'); // importing as global object for browser logging
+
+// load the code mirror plugin
+window.CodeMirror = require('../cm/lib/codemirror');
+require('../cm/lib/codemirror.scss');
+require('../cm/mode/css/css');
+// load the code mirror plugin
+
+
+//window.myDebug = require('debug'); // importing as global object for browser logging
 
 /**
  * Starting point of the program.

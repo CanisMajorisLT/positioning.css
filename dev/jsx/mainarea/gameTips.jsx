@@ -16,7 +16,6 @@ var GameTipsWrap = module.exports = React.createClass({
         cookieParser.setItem('showTips', 'false')
     },
     render: function () {
-        console.log('state', this.state);
         var tips;
         if (this.state.render) tips = <GameTips/>;
         else tips = null;
@@ -58,7 +57,6 @@ var GameTips = React.createClass({
         return (
             <div className="tips">
                 {this.state.tips.map(function (tipData, index) {
-                    console.log(tipData);
                     if (tipData.display) {
                         return <Tip removeTip={this.removeTip.bind(this, index)} tipData={tipData}/>
                     }

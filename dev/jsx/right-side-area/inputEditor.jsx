@@ -20,7 +20,6 @@ module.exports = React.createClass({
         }
         else {
             //TODO: display to user that he used invalid stuff
-            this.props.flashText('not allowed input')
         }
 
     },
@@ -30,7 +29,7 @@ module.exports = React.createClass({
             <div className="editor-wrap">
                 <div id="editor">
                     <button onClick={this.transferInput}>Submit</button>
-                    <textarea id="editor-input" defaultValue="#leonidas {height:440px}"></textarea>
+                    <textarea id="editor-input" defaultValue="#leonidas {height:300px}"></textarea>
                 </div>
             </div>
         )

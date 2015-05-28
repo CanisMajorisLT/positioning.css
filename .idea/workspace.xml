@@ -2,11 +2,427 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d95a5b9-0e64-4961-854f-883bf03949cb" name="Default" comment="commit 2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/yinyang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/3024-day.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/3024-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/selection/active-line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/activebookmark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/activeline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/ambiance-mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/ambiance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/scroll/annotatescrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/anyword-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/anywordhint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/apl/apl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/asciiarmor/asciiarmor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/asterisk/asterisk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/bin/authors.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/base16-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/base16-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/bidi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/blackboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/brace-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/btree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/buffers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/changemode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/clike/clike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/clojure/clojure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/closebrackets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/edit/closebrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/closetag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/edit/closetag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/cmake/cmake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/cobalt.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/cobol/cobol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/lib/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/lib/codemirror.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/coffeescript-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/coffeescript/coffeescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/colorforth.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/runmode/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/comment-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/comment/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/comment_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/commonlisp/commonlisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/compress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/bin/compress" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/comment/continuecomment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/edit/continuelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/css-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/css-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/cypher/cypher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/d/d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dart/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/diff/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/django/django.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/doc_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dockerfile/dockerfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dtd/dtd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dylan/dylan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ebnf/ebnf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ecl/ecl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/eclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/eiffel/eiffel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/elegant.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/emacs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/keymap/emacs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/emacs_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/erlang-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/erlang/erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/foldcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/foldgutter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/foldgutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/folding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/forth/forth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/fortran/fortran.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/display/fullscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/fullscreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/display/fullscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gas/gas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gfm/gfm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gherkin/gherkin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/go/go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/groovy/groovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haml/haml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/hardwrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/wrap/hardwrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haskell/haskell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haxe/haxe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/html-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/html5complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/htmlembedded/htmlembedded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/htmlmixed/htmlmixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/http/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/idl/idl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/indent-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/indentwrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/apl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/asciiarmor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/asterisk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/clike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/clojure/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/cmake/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/cobol/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/coffeescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/commonlisp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/cypher/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/d/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dart/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/diff/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/django/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dockerfile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dtd/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/dylan/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ebnf/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ecl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/eiffel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/erlang/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/forth/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/fortran/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gfm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gherkin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/go/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/groovy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haskell/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haxe/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/htmlembedded/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/htmlmixed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/http/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/idl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/jade/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/javascript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/jinja2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/julia/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/kotlin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/livescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/lua/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/markdown/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/mirc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/mllike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/modelica/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/nginx/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ntriples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/octave/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/pascal/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/pegjs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/perl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/php/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/pig/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/properties/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/puppet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/python/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/q/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/r/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rpm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rpm/changes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rst/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ruby/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rust/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/scheme/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/shell/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sieve/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/slim/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/smalltalk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/smarty/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/solr/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/soy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sparql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/spreadsheet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/stex/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/stylus/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tcl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/textile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tiddlywiki/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tiki/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/toml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tornado/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/troff/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/turtle/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/vb/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/vbscript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/velocity/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/verilog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/xml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/xquery/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/yaml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/z80/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/internals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/jade/jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/javascript-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/javascript-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/javascript/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/jinja2/jinja2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/javascript/json-ld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/json-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/julia/julia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/kotlin/kotlin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/less.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/less_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/lesser-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/lint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/lint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/bin/lint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/livescript/livescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/loadmode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/mode/loadmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/lua/lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/manual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/selection/mark-selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/markdown-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/markselection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/search/match-highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/edit/matchbrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/search/matchesonscrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/search/matchesonscrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/matchhighlighter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/matchtags.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/edit/matchtags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/mbo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/mdn-like.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/merge/merge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/merge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/merge/merge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/meta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/midnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/mirc/mirc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/mllike/mllike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/mode_test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/mode_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/modelica/modelica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/multi_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/multiplex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/mode/multiplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/mode/multiplex_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/mustache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/neat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/neo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/nginx/nginx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ntriples/ntriples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/octave/octave.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/mode/overlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/display/panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/paraiso-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/paraiso-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/pascal/pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/pastel-on-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/pegjs/pegjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/perl/perl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/phantom_driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/php/php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/pig/pig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/placeholder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/display/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/properties/properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/puppet/puppet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/python/python.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/q/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/r/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/realworld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/bin/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/releases.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/reporting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/requirejs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/resize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rpm/rpm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rst/rst.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ruby/ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/rubyblue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/rulers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/display/rulers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/runmode/runmode-standalone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/runmode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/runmode/runmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/runmode/runmode.node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/rust/rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sass/sass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/clike/scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/scheme/scheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/scroll_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/scroll/scrollpastend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/scss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/scss_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/search/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/search_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/search/searchcursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/selection/selection-pointer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/shell/shell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/show-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sieve/sieve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/mode/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/simplemode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/scroll/simplescrollbars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/simplescrollbars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/scroll/simplescrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/slim/slim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/smalltalk/smalltalk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/smarty/smarty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/solarized.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/solr/solr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/bin/source-highlight" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/soy/soy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/spanaffectswrapping_shim.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sparql/sparql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/spreadsheet/spreadsheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/sql-hint-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/sql-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/sql/sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/stex/stex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/stylus/stylus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/sublime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/keymap/sublime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/sublime_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tcl/tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/tern/tern.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/tern.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/tern/tern.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/css/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/gfm/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/haml/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/javascript/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/markdown/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/php/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/ruby/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/shell/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/slim/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/stex/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/textile/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/verilog/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/xml/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/xquery/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/textile/textile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/the-matrix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tiddlywiki/tiddlywiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tiddlywiki/tiddlywiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tiki/tiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tiki/tiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/toml/toml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/tornado/tornado.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/trailingspace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/edit/trailingspace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/troff/troff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/turtle/turtle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/twilight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/javascript/typescript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/upgrade_v2.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/upgrade_v3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/doc/upgrade_v4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/variableheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/vb/vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/vbscript/vbscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/velocity/velocity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/verilog/verilog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/vibrant-ink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/vim.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/keymap/vim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/test/vim_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/visibletabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/widget.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/tern/worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/fold/xml-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/hint/xml-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/xml/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/demo/xmlcomplete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/xq-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/xq-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/xquery/xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/addon/lint/yaml-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/yaml/yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/mode/z80/z80.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/cm/theme/zenburn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/scss/base/_base.scss" afterPath="$PROJECT_DIR$/dev/styles/scss/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/dev/styles/scss/layout/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/scss/components/_buttons.scss" afterPath="$PROJECT_DIR$/dev/styles/scss/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss" afterPath="$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss" afterPath="$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/jsx/right-side-area/infoBoard.jsx" afterPath="$PROJECT_DIR$/dev/jsx/right-side-area/infoBoard.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cm/lib/codemirror.css" afterPath="$PROJECT_DIR$/public/cm/lib/codemirror.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/jsx/mainarea/gameTips.jsx" afterPath="$PROJECT_DIR$/dev/jsx/mainarea/gameTips.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hjs" afterPath="$PROJECT_DIR$/views/index.hjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx" afterPath="$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/javascript/levels.js" afterPath="$PROJECT_DIR$/dev/javascript/levels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/jsx/main.jsx" afterPath="$PROJECT_DIR$/dev/jsx/main.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/mainbundle.js" afterPath="$PROJECT_DIR$/public/javascripts/mainbundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/javascript/test.js" afterPath="$PROJECT_DIR$/dev/javascript/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="positioning.css.iws" />
@@ -31,84 +447,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="levels.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/javascript/levels.js">
+      <file leaf-file-name="_rightsidepanel.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-              <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-                <element signature="e#363#851#0" expanded="false" />
-                <element signature="e#364#585#0" expanded="false" />
-                <element signature="e#411#575#0" expanded="false" />
-                <element signature="e#599#850#0" expanded="false" />
-                <element signature="e#655#836#0" expanded="false" />
-                <element signature="e#1231#2396#0" expanded="false" />
-                <element signature="e#1478#2104#0" expanded="false" />
-                <element signature="e#1479#1659#0" expanded="false" />
-                <element signature="e#1526#1649#0" expanded="false" />
-                <element signature="e#1673#1882#0" expanded="false" />
-                <element signature="e#1729#1868#0" expanded="false" />
-                <element signature="e#1896#2103#0" expanded="false" />
-                <element signature="e#1950#2089#0" expanded="false" />
-                <element signature="e#2405#3693#0" expanded="false" />
-                <element signature="e#2673#3372#0" expanded="false" />
-                <element signature="e#2674#2854#0" expanded="false" />
-                <element signature="e#2721#2844#0" expanded="false" />
-                <element signature="e#2868#3150#0" expanded="false" />
-                <element signature="e#2924#3136#0" expanded="false" />
-                <element signature="e#3164#3371#0" expanded="false" />
-                <element signature="e#3218#3357#0" expanded="false" />
-                <element signature="e#3702#4954#0" expanded="false" />
-                <element signature="e#3934#4633#0" expanded="false" />
-                <element signature="e#3935#4115#0" expanded="false" />
-                <element signature="e#3982#4105#0" expanded="false" />
-                <element signature="e#4129#4411#0" expanded="false" />
-                <element signature="e#4185#4397#0" expanded="false" />
-                <element signature="e#4425#4632#0" expanded="false" />
-                <element signature="e#4479#4618#0" expanded="false" />
-                <element signature="e#4963#7017#0" expanded="false" />
-                <element signature="e#5327#6642#0" expanded="false" />
-                <element signature="e#5328#6631#0" expanded="false" />
-                <element signature="e#5382#5584#0" expanded="false" />
-                <element signature="e#5607#6621#0" expanded="false" />
-                <element signature="e#5608#5932#0" expanded="false" />
-                <element signature="e#5671#5918#0" expanded="false" />
-                <element signature="e#5950#6311#0" expanded="false" />
-                <element signature="e#6021#6293#0" expanded="false" />
-                <element signature="e#6329#6620#0" expanded="false" />
-                <element signature="e#6396#6602#0" expanded="false" />
-                <element signature="e#7023#8029#0" expanded="false" />
-                <element signature="e#8034#8040#0" expanded="false" />
-                <element signature="e#9512#11476#0" expanded="false" />
-                <element signature="e#9513#11475#0" expanded="false" />
-                <element signature="e#9555#9774#0" expanded="false" />
-                <element signature="e#9797#11465#0" expanded="false" />
-                <element signature="e#9798#10108#0" expanded="false" />
-                <element signature="e#9849#10094#0" expanded="false" />
-                <element signature="e#10110#10428#0" expanded="false" />
-                <element signature="e#10165#10414#0" expanded="false" />
-                <element signature="e#10442#10761#0" expanded="false" />
-                <element signature="e#10497#10747#0" expanded="false" />
-                <element signature="e#10787#11106#0" expanded="false" />
-                <element signature="e#10842#11092#0" expanded="false" />
-                <element signature="e#11132#11451#0" expanded="false" />
-                <element signature="e#11187#11437#0" expanded="false" />
-                <element signature="e#11980#12542#0" expanded="false" />
-                <element signature="e#11981#12226#0" expanded="false" />
-                <element signature="e#12027#12216#0" expanded="false" />
-                <element signature="e#12236#12541#0" expanded="false" />
-                <element signature="e#12311#12531#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2312">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_rightsidepanel.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss">
+      <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/jsx/main.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.536859" vertical-offset="1382" max-vertical-offset="2108">
-              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -117,78 +470,71 @@
       <file leaf-file-name="_mainarea.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_mainarea.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="459">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="459">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/jsx/header/header.jsx">
+      <file leaf-file-name="_measurements.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="680">
-              <caret line="22" column="117" selection-start-line="22" selection-start-column="117" selection-end-line="22" selection-end-column="117" />
+            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/javascript/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5381" max-vertical-offset="6018">
+              <caret line="346" column="2" selection-start-line="346" selection-start-column="2" selection-end-line="346" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="levels.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/javascript/levels.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2424" max-vertical-offset="4522">
+              <caret line="153" column="6" selection-start-line="106" selection-start-column="4" selection-end-line="153" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2368422" vertical-offset="721" max-vertical-offset="1139">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="inputEditor.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="765">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/scss/base/_base.scss">
+      <file leaf-file-name="index.hjs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.hjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="493">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="238" max-vertical-offset="2108">
-              <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainArea.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/jsx/mainarea/mainArea.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2516">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_movableobjects.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/scss/components/_movableobjects.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1054">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="infoBoard.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/jsx/right-side-area/infoBoard.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="799">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -202,11 +548,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/stylesheets/scss/_movableobjects.scss" />
-        <option value="$PROJECT_DIR$/public/stylesheets/scss/_htmlmap.scss" />
-        <option value="$PROJECT_DIR$/public/jsx/levels.js" />
-        <option value="$PROJECT_DIR$/public/jsx/mainArea.jsx" />
-        <option value="$PROJECT_DIR$/public/jsx/main.jsx" />
         <option value="$PROJECT_DIR$/public/jsx/inputEditor.jsx" />
         <option value="$PROJECT_DIR$/public/jsx/winConditionObjects.jsx" />
         <option value="$PROJECT_DIR$/dev/jsx/HTMLmap.jsx" />
@@ -223,7 +564,6 @@
         <option value="$PROJECT_DIR$/dev/styles/scss/components/_ruler.scss" />
         <option value="$PROJECT_DIR$/dev/styles/scss/components/_winobjects.scss" />
         <option value="$PROJECT_DIR$/dev/jsx/header.jsx" />
-        <option value="$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss" />
         <option value="$PROJECT_DIR$/spec/input_parser/inputParserSpec.js" />
         <option value="$PROJECT_DIR$/dev/styles/scss/components/_slider.scss" />
         <option value="$PROJECT_DIR$/dev/javascript/inputParser.js" />
@@ -233,26 +573,32 @@
         <option value="$PROJECT_DIR$/dev/javascript/rulerOnClick.js" />
         <option value="$PROJECT_DIR$/dev/jsx/mainarea/tips.jsx" />
         <option value="$PROJECT_DIR$/dev/styles/scss/main.scss" />
-        <option value="$PROJECT_DIR$/dev/jsx/main.jsx" />
         <option value="$PROJECT_DIR$/dev/jsx/mainarea/mainArea.jsx" />
         <option value="$PROJECT_DIR$/dev/styles/scss/components/_movableobjects.scss" />
         <option value="$PROJECT_DIR$/dev/styles/scss/components/_htmlmap.scss" />
         <option value="$PROJECT_DIR$/dev/javascript/mozileCookieLib.js" />
         <option value="$PROJECT_DIR$/dev/javascript/helperFunctions.js" />
-        <option value="$PROJECT_DIR$/dev/javascript/test.js" />
         <option value="$PROJECT_DIR$/dev/styles/scss/components/_gameTips.scss" />
         <option value="$PROJECT_DIR$/ideas.txt" />
-        <option value="$PROJECT_DIR$/dev/jsx/mainarea/gameTips.jsx" />
-        <option value="$PROJECT_DIR$/views/index.hjs" />
-        <option value="$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx" />
         <option value="$PROJECT_DIR$/dev/jsx/header/header.jsx" />
-        <option value="$PROJECT_DIR$/dev/javascript/levels.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dev/styles/scss/base/_base.scss" />
-        <option value="$PROJECT_DIR$/dev/styles/scss/layout/_mainarea.scss" />
         <option value="$PROJECT_DIR$/dev/jsx/right-side-area/infoBoard.jsx" />
         <option value="$PROJECT_DIR$/dev/styles/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/public/cm/lib/codemirror.css" />
         <option value="$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss" />
+        <option value="$PROJECT_DIR$/dev/styles/scss/layout/_mainarea.scss" />
+        <option value="$PROJECT_DIR$/dev/styles/scss/components/_buttons.scss" />
+        <option value="$PROJECT_DIR$/dev/styles/scss/base/_base.scss" />
+        <option value="$PROJECT_DIR$/dev/jsx/mainarea/gameTips.jsx" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/index.hjs" />
+        <option value="$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx" />
+        <option value="$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss" />
+        <option value="$PROJECT_DIR$/dev/javascript/test.js" />
+        <option value="$PROJECT_DIR$/dev/javascript/levels.js" />
+        <option value="$PROJECT_DIR$/dev/javascript/levels.json" />
+        <option value="$PROJECT_DIR$/dev/jsx/main.jsx" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -288,7 +634,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,6 +708,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="positioning.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="positioning.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -398,102 +757,6 @@
               <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainarea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positioning.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -515,6 +778,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,7 +787,7 @@
     <property name="JavaScriptLanguageLevel" value="JSX" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="PluginDummyText.Genre" value="cookery" />
@@ -549,11 +813,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\Projects\JavaScript\react\positioning.css\dev" />
       <recent name="B:\Projects\JavaScript\react\positioning.css\dev\styles" />
       <recent name="B:\Projects\JavaScript\react\positioning.css\dev\javascript" />
       <recent name="B:\Projects\JavaScript\react\positioning.css\dev\jsx" />
       <recent name="B:\Projects\JavaScript\react\positioning.css\public" />
-      <recent name="B:\Projects\JavaScript\react\positioning.css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\Projects\JavaScript\react\positioning.css\dev\jsx\mainarea" />
@@ -688,11 +952,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="668" y="149" width="516" height="516" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="690" y="103" width="516" height="516" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1950078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27876106" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3480826" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -700,10 +966,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27728614" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -734,90 +998,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/javascript/levels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="1496">
-          <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-            <element signature="e#363#851#0" expanded="false" />
-            <element signature="e#364#585#0" expanded="false" />
-            <element signature="e#411#575#0" expanded="false" />
-            <element signature="e#599#850#0" expanded="false" />
-            <element signature="e#655#836#0" expanded="false" />
-            <element signature="e#1231#2396#0" expanded="false" />
-            <element signature="e#1478#2104#0" expanded="false" />
-            <element signature="e#1479#1659#0" expanded="false" />
-            <element signature="e#1526#1649#0" expanded="false" />
-            <element signature="e#1673#1882#0" expanded="false" />
-            <element signature="e#1729#1868#0" expanded="false" />
-            <element signature="e#1896#2103#0" expanded="false" />
-            <element signature="e#1950#2089#0" expanded="false" />
-            <element signature="e#2405#3693#0" expanded="false" />
-            <element signature="e#2673#3372#0" expanded="false" />
-            <element signature="e#2674#2854#0" expanded="false" />
-            <element signature="e#2721#2844#0" expanded="false" />
-            <element signature="e#2868#3150#0" expanded="false" />
-            <element signature="e#2924#3136#0" expanded="false" />
-            <element signature="e#3164#3371#0" expanded="false" />
-            <element signature="e#3218#3357#0" expanded="false" />
-            <element signature="e#3702#4954#0" expanded="false" />
-            <element signature="e#3934#4633#0" expanded="false" />
-            <element signature="e#3935#4115#0" expanded="false" />
-            <element signature="e#3982#4105#0" expanded="false" />
-            <element signature="e#4129#4411#0" expanded="false" />
-            <element signature="e#4185#4397#0" expanded="false" />
-            <element signature="e#4425#4632#0" expanded="false" />
-            <element signature="e#4479#4618#0" expanded="false" />
-            <element signature="e#4963#7017#0" expanded="false" />
-            <element signature="e#5327#6642#0" expanded="false" />
-            <element signature="e#5328#6631#0" expanded="false" />
-            <element signature="e#5382#5584#0" expanded="false" />
-            <element signature="e#5607#6621#0" expanded="false" />
-            <element signature="e#5608#5932#0" expanded="false" />
-            <element signature="e#5671#5918#0" expanded="false" />
-            <element signature="e#5950#6311#0" expanded="false" />
-            <element signature="e#6021#6293#0" expanded="false" />
-            <element signature="e#6329#6620#0" expanded="false" />
-            <element signature="e#6396#6602#0" expanded="false" />
-            <element signature="e#7023#8029#0" expanded="false" />
-            <element signature="e#8034#8040#0" expanded="false" />
-            <element signature="e#9512#11476#0" expanded="false" />
-            <element signature="e#9513#11475#0" expanded="false" />
-            <element signature="e#9555#9774#0" expanded="false" />
-            <element signature="e#9797#11465#0" expanded="false" />
-            <element signature="e#9798#10108#0" expanded="false" />
-            <element signature="e#9849#10094#0" expanded="false" />
-            <element signature="e#10110#10428#0" expanded="false" />
-            <element signature="e#10165#10414#0" expanded="false" />
-            <element signature="e#10442#10761#0" expanded="false" />
-            <element signature="e#10497#10747#0" expanded="false" />
-            <element signature="e#10787#11106#0" expanded="false" />
-            <element signature="e#10842#11092#0" expanded="false" />
-            <element signature="e#11132#11451#0" expanded="false" />
-            <element signature="e#11187#11437#0" expanded="false" />
-            <element signature="e#11980#12542#0" expanded="false" />
-            <element signature="e#11981#12226#0" expanded="false" />
-            <element signature="e#12027#12216#0" expanded="false" />
-            <element signature="e#12236#12541#0" expanded="false" />
-            <element signature="e#12311#12531#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="1887">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/jsx/header/header.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="680">
           <caret line="22" column="117" selection-start-line="22" selection-start-column="117" selection-end-line="22" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2108">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2516">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="799">
           <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,20 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02724359" vertical-offset="0" max-vertical-offset="2261">
           <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/mainbundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05745063" vertical-offset="219404" max-vertical-offset="669154">
-          <caret line="12908" column="63" selection-start-line="12908" selection-start-column="63" selection-end-line="12908" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -901,13 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05685619" vertical-offset="0" max-vertical-offset="598">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/scss/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -936,13 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1768">
           <caret line="80" column="64" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -995,13 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/javascript/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/javascript/helperFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77922076" vertical-offset="252" max-vertical-offset="714">
@@ -1020,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4064" max-vertical-offset="4913">
           <caret line="252" column="49" selection-start-line="252" selection-start-column="49" selection-end-line="252" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,42 +1182,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/jsx/mainarea/gameTips.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="408">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/jsx/main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/jsx/header/header.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="680">
           <caret line="22" column="117" selection-start-line="22" selection-start-column="117" selection-end-line="22" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,78 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026153846" vertical-offset="0" max-vertical-offset="650">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/javascript/levels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-            <element signature="e#363#851#0" expanded="false" />
-            <element signature="e#364#585#0" expanded="false" />
-            <element signature="e#411#575#0" expanded="false" />
-            <element signature="e#599#850#0" expanded="false" />
-            <element signature="e#655#836#0" expanded="false" />
-            <element signature="e#1231#2396#0" expanded="false" />
-            <element signature="e#1478#2104#0" expanded="false" />
-            <element signature="e#1479#1659#0" expanded="false" />
-            <element signature="e#1526#1649#0" expanded="false" />
-            <element signature="e#1673#1882#0" expanded="false" />
-            <element signature="e#1729#1868#0" expanded="false" />
-            <element signature="e#1896#2103#0" expanded="false" />
-            <element signature="e#1950#2089#0" expanded="false" />
-            <element signature="e#2405#3693#0" expanded="false" />
-            <element signature="e#2673#3372#0" expanded="false" />
-            <element signature="e#2674#2854#0" expanded="false" />
-            <element signature="e#2721#2844#0" expanded="false" />
-            <element signature="e#2868#3150#0" expanded="false" />
-            <element signature="e#2924#3136#0" expanded="false" />
-            <element signature="e#3164#3371#0" expanded="false" />
-            <element signature="e#3218#3357#0" expanded="false" />
-            <element signature="e#3702#4954#0" expanded="false" />
-            <element signature="e#3934#4633#0" expanded="false" />
-            <element signature="e#3935#4115#0" expanded="false" />
-            <element signature="e#3982#4105#0" expanded="false" />
-            <element signature="e#4129#4411#0" expanded="false" />
-            <element signature="e#4185#4397#0" expanded="false" />
-            <element signature="e#4425#4632#0" expanded="false" />
-            <element signature="e#4479#4618#0" expanded="false" />
-            <element signature="e#4963#7017#0" expanded="false" />
-            <element signature="e#5327#6642#0" expanded="false" />
-            <element signature="e#5328#6631#0" expanded="false" />
-            <element signature="e#5382#5584#0" expanded="false" />
-            <element signature="e#5607#6621#0" expanded="false" />
-            <element signature="e#5608#5932#0" expanded="false" />
-            <element signature="e#5671#5918#0" expanded="false" />
-            <element signature="e#5950#6311#0" expanded="false" />
-            <element signature="e#6021#6293#0" expanded="false" />
-            <element signature="e#6329#6620#0" expanded="false" />
-            <element signature="e#6396#6602#0" expanded="false" />
-            <element signature="e#7023#8029#0" expanded="false" />
-            <element signature="e#8034#8040#0" expanded="false" />
-            <element signature="e#9512#11476#0" expanded="false" />
-            <element signature="e#9513#11475#0" expanded="false" />
-            <element signature="e#9555#9774#0" expanded="false" />
-            <element signature="e#9797#11465#0" expanded="false" />
-            <element signature="e#9798#10108#0" expanded="false" />
-            <element signature="e#9849#10094#0" expanded="false" />
-            <element signature="e#10110#10428#0" expanded="false" />
-            <element signature="e#10165#10414#0" expanded="false" />
-            <element signature="e#10442#10761#0" expanded="false" />
-            <element signature="e#10497#10747#0" expanded="false" />
-            <element signature="e#10787#11106#0" expanded="false" />
-            <element signature="e#10842#11092#0" expanded="false" />
-            <element signature="e#11132#11451#0" expanded="false" />
-            <element signature="e#11187#11437#0" expanded="false" />
-            <element signature="e#11980#12542#0" expanded="false" />
-            <element signature="e#11981#12226#0" expanded="false" />
-            <element signature="e#12027#12216#0" expanded="false" />
-            <element signature="e#12236#12541#0" expanded="false" />
-            <element signature="e#12311#12531#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,23 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1054">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/scss/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="493">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_mainarea.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="459">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,24 +1214,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="799">
           <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="238" max-vertical-offset="2108">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2108">
           <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cm/lib/codemirror.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5610">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/scss/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="544">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/scss/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="493">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/mainbundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="680">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/jsx/mainarea/gameTips.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1666">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/cm/lib/codemirror.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5610">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/cm/lib/codemirror.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="147747">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_rightsidepanel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.536859" vertical-offset="1382" max-vertical-offset="2108">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2312">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/scss/layout/_mainarea.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="459">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/scss/utils/_measurements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/javascript/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5381" max-vertical-offset="6018">
+          <caret line="346" column="2" selection-start-line="346" selection-start-column="2" selection-end-line="346" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/jsx/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/jsx/right-side-area/inputEditor.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/javascript/levels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2424" max-vertical-offset="4522">
+          <caret line="153" column="6" selection-start-line="106" selection-start-column="4" selection-end-line="153" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2368422" vertical-offset="721" max-vertical-offset="1139">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

@@ -18,7 +18,7 @@
   background-color: $right-panel-background-color;
   display: inline-block;
   width: $right-side-panel-width;
-  min-height: calc(100% - #{$header-height} + 7px); // 7px is because body {padding-bottom: 8px}, balancing/removign weird white gap
+  min-height: calc(100% - #{$header-height}); // 7px is because body {padding-bottom: 8px}, balancing/removign weird white gap
   //min-height: $min-page-height;
   color: $right-panel-text-color;
 
@@ -43,7 +43,7 @@
   height: 35px;
   line-height: 25px;
   font-weight: 600;
-    background-color: darken($right-panel-background-color, 3%);
+  background-color: darken($right-panel-background-color, 3%);
   padding-top: 5px;
   @include divide-border('bottom');
   #prev-level {
@@ -84,6 +84,10 @@
     margin: 0 7px 0 7px;
     padding-left: 10px;
     padding-right: 10px;
+
+    p {
+      margin: 16px 0 18px 0;
+    }
   }
 }
 
@@ -93,6 +97,13 @@
   padding-top: 10px;
   min-height: 166px;
 }
+
+@-moz-document url-prefix() {
+  #positioning-theory {
+    min-height: 183px;
+  }
+}
+
 #level-explanation {
   min-height: 100px;
 }
@@ -101,10 +112,11 @@
   //@include divide-border('bottom');
   position: relative;
   p {
-    margin-bottom: 8px;
+    margin-bottom: 8px !important;
   }
 
 }
+
 .editor-wrap {
   //@include divide-border('top');
   height: 100%;
