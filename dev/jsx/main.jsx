@@ -5,6 +5,7 @@ var inputParser = require('../javascript/inputParser');
 var levels = require('../javascript/levels');
 var Header = require('./header/header.jsx');
 var MainArea = require('./mainarea/mainArea.jsx');
+var WarningPanel = require('./global/warningPanel.jsx');
 var debug = require('debug')('main');
 var _ = require('lodash');
 var firstLevelOfTopic = require('../javascript/helperFunctions').firstLevelOfTopic;
@@ -71,6 +72,7 @@ var GameWrap = React.createClass({
         debug('GameWrap is rendering');
         return (
             <div id="outside-wrap">
+                <WarningPanel/>
                 <Header topic={this.state.data.topic} changeLevelTopic={this.changeTopic}/>
                 <MainArea data={this.state.data} nextLevel={this.nextLevel}/>
                 <div className="right-side-panel">
@@ -85,7 +87,7 @@ var GameWrap = React.createClass({
 });
 
 /*CodeMirror plugin is passed as an object so it can be initialised later. After textarea DOM element is created*/
-//FIXME su default props gaima ten vietoje paduot
+//FIXME su default props galima ten vietoje paduot
 var myCodeMirror = {
     editor: {},
     editorMake: function () {

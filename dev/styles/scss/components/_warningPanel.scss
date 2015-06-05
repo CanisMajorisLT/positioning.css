@@ -1,0 +1,22 @@
+#screen-size-warning {
+  z-index: 4;
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(3, 169, 244, 0.95);
+  @media (max-device-width: 600px) {
+    display: block;
+  }
+
+  div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 30px 15px 15px 15px;
+    button {
+      @include button(#4CAF50);
+      height: 40px;
+    }
+  }
+}
